@@ -2,10 +2,11 @@
 
 namespace App\Http\Controllers\Admin;
 
-use App\Http\Controllers\Controller;
-use Illuminate\Http\Request;
 use App\Models\pengaduan;
 use App\Models\tanggapan;
+use Illuminate\Http\Request;
+use App\Http\Controllers\Controller;
+
 
 class TanggapanController extends Controller
 {

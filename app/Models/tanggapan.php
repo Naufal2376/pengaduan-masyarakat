@@ -10,5 +10,5 @@ class tanggapan extends Model
     use HasFactory;
     protected $table = 'tanggapan';
     protected $primaryKey = 'id_tanggapan';
-    protected $fillable = ['id_tanggapan', 'id_petugas', 'id_pengaduan', 'tanggapan', 'tgl_tanggapan', 'id_petugas', 'id_masyarakat'];
+    protected $fillable = ['id_tanggapan', 'id_petugas', 'id_pengaduan', 'tanggapan', 'tgl_tanggapan'];
 }
